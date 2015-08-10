@@ -1,5 +1,5 @@
 <?php
-  $jsonFile = 'http://www.showclix.com/event/3805800/recurring-event-times';
+  $jsonFile = 'http://www.showclix.com/event/TheTonightShowStarringJimmyFallon/recurring-event-times';
 
   require_once 'classes/class.jf-tixs.php';
   $tickets = new jf\Tixs($jsonFile);
